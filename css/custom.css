@@ -900,6 +900,10 @@ margin-bottom: 5px;
         padding: 0;
     }
 
+    .initials {
+        border: none;
+    }
+
     #share-buttons img {
         margin-bottom: 0;
         width: 45px;
