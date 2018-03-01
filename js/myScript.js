@@ -115,7 +115,7 @@
 	//SMOOTH SCROLL========================================//
 
 	//smooth scroll (how-to-buy)
-	$(".how-to-buy>a, .to-top, #our-contacts[href^='#']").on('click',function(e) {
+	$(".how-to-buy>a, .to-top[href^='#']").on('click',function(e) {
 
 	   // prevent default anchor click behavior
 	   e.preventDefault();
@@ -125,7 +125,7 @@
 
 	   // animate
 	   $('html, body').animate({
-	       scrollTop: $(hash).offset().top -50
+	       scrollTop: $(hash).offset().top
 	     }, 700, function(){
 
 	       // when done, add hash to url

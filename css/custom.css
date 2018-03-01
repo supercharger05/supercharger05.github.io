@@ -805,10 +805,6 @@ margin-bottom: 5px;
 
 @media (max-width: 991px) {
 
-    body {
-        padding-top: 0;
-    }
-
     .navbar {
         margin-bottom: 0;
         border-radius: 0;
