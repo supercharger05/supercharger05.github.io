@@ -2,12 +2,12 @@
 
 	//PRICES=================================================//
 
-	var s9_14 = 3110;
-	var t9_plus_11 = 2471;
-	var l3_plus = 1728;
-	var a3 = 1244;
-	var v9 = 430;
-	var apw3_plus_plus = 112;
+	var s9_14 = 3082;
+	var t9_plus_11 = 2448;
+	var l3_plus = 1712;
+	var a3 = 1233;
+	var v9 = 426;
+	var apw3_plus_plus = 111;
 
 	//=================================================PRICES//
 
@@ -125,7 +125,7 @@
 
 	   // animate
 	   $('html, body').animate({
-	       scrollTop: $(hash).offset().top
+	       scrollTop: $(hash).offset().top -60
 	     }, 700, function(){
 
 	       // when done, add hash to url
