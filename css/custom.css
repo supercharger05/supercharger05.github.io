@@ -60,6 +60,11 @@ footer {
     padding: 30px 0;
 }
 
+.btn-info {
+    background-color: #1679c3;
+    border-color: #1679c3;
+}
+
 .navbar {
     background-color: #1679c3;
     border: none;
@@ -222,7 +227,7 @@ footer {
 .inner-parameters {
     border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
-    padding-bottom: 7px;
+    padding: 7px 0 7px 0;
 }
 
 .inner-parameters ul {
@@ -800,6 +805,37 @@ margin-bottom: 5px;
     color: #337ab7;
     font-weight: bold;
 } */
+
+.specifications {
+    font-weight: bold;
+    font-size: 18px;
+    color: #337ab7;
+    text-transform: uppercase;
+}
+
+.specs {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pager .active {
+    font-weight: bold;
+    font-size: 16px;
+    color: #e74c3c;
+
+}
+
+.pager>li>a {
+    min-width: 110px;
+    padding: 10px;
+    text-align: center;
+    background-color: unset;
+    border: unset;
+}
+
+.pager>li>a:hover {
+    background-color: unset;
+}
 
 /* Responsive styling */
 

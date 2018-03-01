@@ -51,7 +51,7 @@
 
 	$(window).bind('scroll',function() {
 		if ($(window).width()<992) {
-			if ($(window).scrollTop()>2500) {
+			if ($(window).scrollTop()>1500) {
 				$('#arrow').fadeIn(200);
 			}else {
 				$('#arrow').fadeOut(200);
