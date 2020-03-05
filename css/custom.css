@@ -9,6 +9,10 @@
 	padding: 0px 50px 0px 50px;
 }
 
+.text-to-left {
+	margin-right: 0px;
+}
+
 .text-primary {
 	font-weight: bold;
 }
@@ -41,6 +45,10 @@ footer.footer .footer-social {
 
 .programs h3 {
 	font-size: 1.3rem;
+}
+
+.internship h3 {
+	font-size: 1.1rem;
 }
 
 .programs .row {
